@@ -1,0 +1,70 @@
+#list
+buah=["apel","mangga","nanas","durian"]
+#penampilkan (perulangan)
+for i in buah:
+    print(i)
+#mengapdate
+buah=["apel","mangga","nanas","durian"]
+buah[0]="anggur"
+print(buah)
+#menghapus
+buah=["apel","mangga","nanas","durian"]
+del buah [2]
+print(buah)
+#menambah
+buah=["apel","mangga","nanas","durian"]
+buah.append("sirsak")
+print(buah)
+
+#set
+Set= {"nama",40.60.98,True,False}
+
+#menampilkan(perulangan)
+for i in Set:
+    prin(i)
+#mengupdate
+#Set= {"nama",40,60.98, True,False}
+#Set= {"dunia"}
+#print(set[3])
+#menghapus
+Set= {"nama",40.60.98,True,False}
+Set.remove(True)
+print(Set)
+#menambahkan
+Set= {"nama",40.60.98,True,False}
+Set.add("dunia")
+print(Set)
+
+#tuple
+nama= ("mamnun",89.0,67,True,False,"informatika")
+
+#menampilkan(perulangan)
+for i in nama:
+    prin(i)
+#mengupdate
+#konversi tuple ke set
+nma= list(nama)
+nma [3] = 80
+print(nama)
+#menghapus
+nma.remove("mamnun)
+print(nma)
+#menambahkan
+nma.append("aulia")
+print(nma)
+
+#dictionary
+nilai= {1:"mamnun",2:"aulia",3:"icha"}
+#menampilkan(perulangan)
+for key in nilai:
+    print(key, nilai[key])
+#mengupdate
+nilai= {1:"mamnun",2:"aulia",3:"icha"}
+nilai[2]="putri"
+print(nilai)
+#menghapus
+nilai.pop(3)
+print(nilai)
+#menambahkan
+nilai[4]="riska"
+print(nilai)
